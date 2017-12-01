@@ -1,0 +1,34 @@
+@import 'reset.css';
+
+body{
+  font-family:sans-serif;
+}
+
+header{
+  background-color:#e9edf2;
+  height:125px;
+}
+
+nav{
+  width:98%;
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-between;
+}
+.left{
+  display:flex;
+  flex-direction:row;
+
+}
+
+
+ul li {
+  display:inline;
+  margin-top:15px;
+  padding:10px  5px;
+}
+h1{
+  font-size:26px;
+  width:70%;
+  margin:0 auto;
+}
